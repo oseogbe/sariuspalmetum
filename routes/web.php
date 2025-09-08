@@ -9,3 +9,11 @@ Route::get('/', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 })->name('gallery');
+
+Route::get('/founder', function () {
+    return view('founder');
+})->name('founder');
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');

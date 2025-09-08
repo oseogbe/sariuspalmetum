@@ -27,11 +27,11 @@
           
           <!-- Desktop Navigation -->
           <div class="hidden md:flex md:items-center md:space-x-8">
-            <a href="#home" class="text-gray-700 hover:text-emerald-700 transition">Home</a>
-            <a href="#services" class="text-gray-700 hover:text-emerald-700 transition">Services</a>
-            <a href="#gallery" class="text-gray-700 hover:text-emerald-700 transition">Gallery</a>
-            <a href="#contact" class="text-gray-700 hover:text-emerald-700 transition">Contact</a>
-            <a href="#book" class="px-4 py-2 rounded-full bg-emerald-600 text-white hover:bg-emerald-700 transition">
+            <a href="/#home" class="text-gray-700 hover:text-emerald-700 transition">Home</a>
+            <a href="/#services" class="text-gray-700 hover:text-emerald-700 transition">Services</a>
+            <a href="/#gallery" class="text-gray-700 hover:text-emerald-700 transition">Gallery</a>
+            <a href="/#contact" class="text-gray-700 hover:text-emerald-700 transition">Contact</a>
+            <a href="/#book" class="px-4 py-2 rounded-full bg-emerald-600 text-white hover:bg-emerald-700 transition">
               Book a Visit
             </a>
           </div>
@@ -51,11 +51,11 @@
       <!-- Mobile Navigation Menu -->
       <div x-show="isOpen" class="md:hidden bg-white border-t border-gray-100">
         <div class="px-2 pt-2 pb-3 space-y-1">
-          <a href="#home" class="block px-3 py-2 text-gray-700 hover:text-emerald-700 transition">Home</a>
-          <a href="#services" class="block px-3 py-2 text-gray-700 hover:text-emerald-700 transition">Services</a>
-          <a href="#gallery" class="block px-3 py-2 text-gray-700 hover:text-emerald-700 transition">Gallery</a>
-          <a href="#contact" class="block px-3 py-2 text-gray-700 hover:text-emerald-700 transition">Contact</a>
-          <a href="#book" class="block px-3 py-2 text-emerald-600 hover:text-emerald-700 transition">Book a Visit</a>
+          <a href="/#home" class="block px-3 py-2 text-gray-700 hover:text-emerald-700 transition">Home</a>
+          <a href="/#services" class="block px-3 py-2 text-gray-700 hover:text-emerald-700 transition">Services</a>
+          <a href="/#gallery" class="block px-3 py-2 text-gray-700 hover:text-emerald-700 transition">Gallery</a>
+          <a href="/#contact" class="block px-3 py-2 text-gray-700 hover:text-emerald-700 transition">Contact</a>
+          <a href="/#book" class="block px-3 py-2 text-emerald-600 hover:text-emerald-700 transition">Book a Visit</a>
         </div>
       </div>
     </nav>
@@ -99,10 +99,10 @@
           <div>
             <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
             <ul class="space-y-2">
-              <li><a href="#services" class="text-emerald-100 hover:text-white transition">Our Services</a></li>
-              <li><a href="#gallery" class="text-emerald-100 hover:text-white transition">Gallery</a></li>
-              <li><a href="#contact" class="text-emerald-100 hover:text-white transition">Contact Us</a></li>
-              <li><a href="#book" class="text-emerald-100 hover:text-white transition">Book a Visit</a></li>
+              <li><a href="/#services" class="text-emerald-100 hover:text-white transition">Our Services</a></li>
+              <li><a href="/#gallery" class="text-emerald-100 hover:text-white transition">Gallery</a></li>
+              <li><a href="/#contact" class="text-emerald-100 hover:text-white transition">Contact Us</a></li>
+              <li><a href="/#book" class="text-emerald-100 hover:text-white transition">Book a Visit</a></li>
             </ul>
           </div>
           <div>

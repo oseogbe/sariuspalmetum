@@ -128,7 +128,89 @@
                     </div>
                     <h3 class="text-2xl font-serif font-bold mb-4">Dining Services</h3>
                     <p class="text-gray-600 mb-4">Enjoy delicious meals and refreshments in our garden restaurant with a serene atmosphere.</p>
-                    <a href="#contact" class="text-emerald-600 hover:text-emerald-700 font-medium">Learn More →</a>
+                    <a href="#contact" class="text-emerald-600 hover:text-emerald-700 font-medium">Learn More </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Section -->
+    <section id="founder" class="py-20 bg-white scroll-mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="order-2 lg:order-1" data-aos="fade-right">
+                    <h2 class="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-6">Meet Our Founder</h2>
+                    <div class="space-y-6 text-gray-700 leading-relaxed">
+                        <p>
+                            Ajoke Muhammed, one of Nigeria's previous first ladies, is now dedicated to protecting indigenous flora, notably the West African country's numerous palm tree varieties. She began her career as a dental therapist.
+                        </p>
+                        <p>
+                            Her spouse raised fish, aquatic snakes, and birds, but she developed her own passion for nature after he died, when she moved into a new house with a garden.
+                        </p>
+                        <div class="pt-2">
+                            <a href="{{ url('/founder') }}" class="btn btn-primary gap-2">Learn More
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-1 lg:order-2" data-aos="fade-left">
+                    <div class="relative mx-auto w-full max-w-md">
+                        <div class="aspect-[4/5] rounded-3xl overflow-hidden shadow-xl ring-1 ring-emerald-100 bg-emerald-50">
+                            <img src="{{ asset('images/ajoke-muhammed.png') }}" alt="Ajoke Muhammed" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Are Section -->
+    <section id="about" class="py-20 bg-gray-50 scroll-mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
+                <div class="md:col-span-5" data-aos="fade-right">
+                    <div class="relative">
+                        <div class="absolute -inset-4 rounded-3xl bg-emerald-600/10 blur-xl"></div>
+                        <div class="relative rounded-3xl bg-white p-8 shadow-lg border border-gray-100">
+                            <h2 class="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">What We Are</h2>
+                            <p class="text-gray-700 leading-relaxed">
+                                The Sarius Palmetum Botanical Garden is situated in a Maitama neighborhood. There are now over 1,000 different plant species, including approximately 450 palm species, in addition to those popular in Nigeria, such as the oil and coconut palm, and others like Bismarckia, golden, and royal palm.
+                            </p>
+                            <div class="mt-6">
+                                <a href="{{ url('/about') }}" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-emerald-600 text-white hover:bg-emerald-700 transition font-medium">
+                                    Learn More
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:col-span-7" data-aos="fade-left">
+                    <div class="grid grid-cols-3 sm:grid-cols-6 gap-3">
+                        <div class="aspect-square rounded-xl overflow-hidden shadow-md bg-emerald-50">
+                            <img src="{{ asset('images/garden/3.png') }}" alt="Garden 3" class="w-full h-full object-cover">
+                        </div>
+                        <div class="aspect-square rounded-xl overflow-hidden shadow-md bg-emerald-50">
+                            <img src="{{ asset('images/garden/8.png') }}" alt="Garden 8" class="w-full h-full object-cover">
+                        </div>
+                        <div class="aspect-square rounded-xl overflow-hidden shadow-md bg-emerald-50">
+                            <img src="{{ asset('images/garden/12.png') }}" alt="Garden 12" class="w-full h-full object-cover">
+                        </div>
+                        <div class="aspect-square rounded-xl overflow-hidden shadow-md bg-emerald-50">
+                            <img src="{{ asset('images/garden/19.png') }}" alt="Garden 19" class="w-full h-full object-cover">
+                        </div>
+                        <div class="aspect-square rounded-xl overflow-hidden shadow-md bg-emerald-50">
+                            <img src="{{ asset('images/garden/24.png') }}" alt="Garden 24" class="w-full h-full object-cover">
+                        </div>
+                        <div class="aspect-square rounded-xl overflow-hidden shadow-md bg-emerald-50">
+                            <img src="{{ asset('images/garden/33.png') }}" alt="Garden 33" class="w-full h-full object-cover">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -2,13 +2,13 @@
 
 @section('content')
     <!-- Gallery Header -->
-    <section class="pt-32 pb-12 bg-white bg-no-repeat bg-bottom bg-cover" style="background-image: url('{{ asset('images/palm-leafs.jpg') }}');">
+    <section class="pt-32 pb-12 bg-emerald-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center" data-aos="fade-up">
-                <h1 class="text-4xl md:text-5xl font-serif font-bold text-emerald-600 mb-4">
+                <h1 class="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-4">
                     Our Gallery
                 </h1>
-                <p class="text-xl font-semibold text-emerald-600 max-w-2xl mx-auto">
+                <p class="text-emerald-700 max-w-xl mx-auto">
                     Explore the beauty and serenity of SariusPalmetum through our collection of stunning photographs
                 </p>
             </div>
