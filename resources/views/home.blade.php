@@ -10,7 +10,7 @@
             <div class="text-center" data-aos="fade-up">
                 <h1 class="text-4xl md:text-7xl font-serif font-bold text-gray-900 mb-6">
                     Welcome to<br>
-                    <span class="text-emerald-600">SariusPalmetum</span>
+                    <span class="text-emerald-700">SariusPalmetum</span>
                 </h1>
                 <p class="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-8">
                     Experience the beauty of exotic palm trees in our carefully curated botanical garden.
@@ -19,6 +19,30 @@
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="#book" class="btn btn-primary">Book a Visit</a>
                     <a href="#services" class="btn btn-outline">Explore Services</a>
+                </div>
+
+                <!-- Hero Collage -->
+                <div class="mt-12 flex justify-center">
+                    <div class="grid grid-cols-3 sm:grid-cols-6 gap-4">
+                        <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden shadow-lg ring-1 ring-white/50 -rotate-3 hover:rotate-0 transition">
+                            <img src="{{ asset('images/garden/1.png') }}" alt="Palm view 1" class="w-full h-full object-cover">
+                        </div>
+                        <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden shadow-lg ring-1 ring-white/50 rotate-2 hover:rotate-0 transition">
+                            <img src="{{ asset('images/garden/5.png') }}" alt="Palm view 5" class="w-full h-full object-cover">
+                        </div>
+                        <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden shadow-lg ring-1 ring-white/50 -rotate-2 hover:rotate-0 transition">
+                            <img src="{{ asset('images/garden/9.png') }}" alt="Palm view 9" class="w-full h-full object-cover">
+                        </div>
+                        <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden shadow-lg ring-1 ring-white/50 rotate-1 hover:rotate-0 transition">
+                            <img src="{{ asset('images/garden/13.png') }}" alt="Palm view 13" class="w-full h-full object-cover">
+                        </div>
+                        <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden shadow-lg ring-1 ring-white/50 -rotate-1 hover:rotate-0 transition">
+                            <img src="{{ asset('images/garden/17.png') }}" alt="Palm view 17" class="w-full h-full object-cover">
+                        </div>
+                        <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden shadow-lg ring-1 ring-white/50 rotate-3 hover:rotate-0 transition">
+                            <img src="{{ asset('images/garden/21.png') }}" alt="Palm view 21" class="w-full h-full object-cover">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
