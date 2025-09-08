@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Hero Section -->
-    <section id="home" class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <section id="home" class="relative min-h-screen flex items-center pt-20 overflow-hidden scroll-mt-20">
         <div class="absolute inset-0 z-0">
             <img src="{{ asset('images/hero-bg.jpg') }}" alt="Palm trees" class="w-full h-full object-cover opacity-20">
         </div>
@@ -26,7 +26,7 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-20 bg-gray-50">
+    <section id="services" class="py-20 bg-gray-50 scroll-mt-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16" data-aos="fade-up">
                 <h2 class="section-title">Our Services</h2>
@@ -111,7 +111,7 @@
     </section>
 
     <!-- Gallery Section -->
-    <section id="gallery" class="py-20">
+    <section id="gallery" class="py-20 scroll-mt-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16" data-aos="fade-up">
                 <h2 class="section-title">Our Gallery</h2>
@@ -181,7 +181,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-20 bg-gray-50">
+    <section id="contact" class="py-20 bg-gray-50 scroll-mt-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16" data-aos="fade-up">
                 <h2 class="section-title">Contact Us</h2>
@@ -268,7 +268,7 @@
     </section>
 
     <!-- Booking Section -->
-    <section id="book" class="py-20 bg-emerald-900 text-white">
+    <section id="book" class="py-20 bg-emerald-900 text-white scroll-mt-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16" data-aos="fade-up">
                 <h2 class="text-4xl md:text-5xl font-serif font-bold mb-4">Book Your Visit</h2>
