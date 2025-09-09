@@ -2,6 +2,14 @@
 
 @import 'tailwindcss';
 
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
 @layer components {
     .btn {
         @apply inline-flex items-center justify-center px-6 py-3 rounded-full font-medium transition duration-200;
