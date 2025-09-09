@@ -14,7 +14,7 @@
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   </head>
-  <body x-data class="font-sans bg-white text-gray-800 antialiased">
+  <body x-data class="bg-white text-gray-800 antialiased">
     <!-- Navigation -->
     <nav x-data="{ isOpen: false }" class="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -29,6 +29,7 @@
           <div class="hidden md:flex md:items-center md:space-x-8">
             <a href="/#home" class="text-gray-700 hover:text-emerald-700 transition">Home</a>
             <a href="/#services" class="text-gray-700 hover:text-emerald-700 transition">Services</a>
+            <a href="/#palms" class="text-gray-700 hover:text-emerald-700 transition">Palms</a>
             <a href="/#gallery" class="text-gray-700 hover:text-emerald-700 transition">Gallery</a>
             <a href="/#contact" class="text-gray-700 hover:text-emerald-700 transition">Contact</a>
             <a href="/#book" class="px-4 py-2 rounded-full bg-emerald-600 text-white hover:bg-emerald-700 transition">
@@ -53,6 +54,7 @@
         <div class="px-2 pt-2 pb-3 space-y-1">
           <a href="/#home" class="block px-3 py-2 text-gray-700 hover:text-emerald-700 transition">Home</a>
           <a href="/#services" class="block px-3 py-2 text-gray-700 hover:text-emerald-700 transition">Services</a>
+          <a href="/#palms" class="block px-3 py-2 text-gray-700 hover:text-emerald-700 transition">Palms</a>
           <a href="/#gallery" class="block px-3 py-2 text-gray-700 hover:text-emerald-700 transition">Gallery</a>
           <a href="/#contact" class="block px-3 py-2 text-gray-700 hover:text-emerald-700 transition">Contact</a>
           <a href="/#book" class="block px-3 py-2 text-emerald-600 hover:text-emerald-700 transition">Book a Visit</a>

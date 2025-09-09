@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\PalmController;
+
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -17,3 +19,5 @@ Route::get('/founder', function () {
 Route::get('/about', function () {
     return view('about');
 })->name('about');
+
+Route::get('/palms', [PalmController::class, 'index'])->name('palms.index');

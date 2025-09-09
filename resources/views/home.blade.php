@@ -216,6 +216,46 @@
         </div>
     </section>
 
+    <!-- Palm Collection Preview -->
+    <section id="palms" class="py-20 bg-white scroll-mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="section-title">Palm Collection</h2>
+                <p class="section-subtitle">Explore Africa's largest curated collection of palms</p>
+            </div>
+
+            @php
+                $previewPalms = collect(config('palms'))
+                    ->shuffle()
+                    ->take(6);
+            @endphp
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
+                @foreach ($previewPalms as $palm)
+                    <div class="palm-card group" data-aos="zoom-in">
+                        <div class="relative rounded-3xl bg-white p-6 shadow-xl ring-1 ring-emerald-100">
+                            <div class="w-40 h-40 mx-auto rounded-full overflow-hidden ring-4 ring-emerald-200">
+                                <img src="{{ asset($palm['image']) }}" alt="{{ $palm['common_name'] }}" class="w-full h-full object-cover">
+                            </div>
+                            <div class="mt-6 border-t border-emerald-200 pt-6 text-center">
+                                <h3 class="text-xl font-serif font-extrabold tracking-wide text-emerald-800 uppercase">{{ $palm['common_name'] }}</h3>
+                                @php $sci = trim((string)($palm['scientific_name'] ?? '')); @endphp
+                                @if($sci !== '')
+                                    <p class="mt-2 text-sm text-emerald-700 italic underline underline-offset-4">{{ $sci }}</p>
+                                @endif
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+
+            <div class="text-center" data-aos="fade-up">
+                <a href="{{ route('palms.index') }}" class="btn btn-primary">
+                    Explore Full Palm Collection
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- Gallery Section -->
     <section id="gallery" class="py-20 scroll-mt-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -360,11 +400,11 @@
                             </p>
                             <p class="flex justify-between">
                                 <span>Saturday</span>
-                                <span>10:00 AM - 5:00 PM</span>
+                                <span>9:00 AM - 6:00 PM</span>
                             </p>
                             <p class="flex justify-between">
                                 <span>Sunday</span>
-                                <span>10:00 AM - 4:00 PM</span>
+                                <span>9:00 AM - 6:00 PM</span>
                             </p>
                         </div>
                     </div>
