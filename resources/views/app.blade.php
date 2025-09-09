@@ -6,6 +6,10 @@
     <title>SariusPalmetum - Botanical Garden & Event Center</title>
     <meta name="description" content="Experience the beauty of exotic palm trees and nature at SariusPalmetum Botanical Garden. Perfect for events, photography, and relaxation." />
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ asset('images/spmc-icon.png') }}">
+    <link rel="shortcut icon" href="{{ asset('images/spmc-icon.png') }}" type="image/x-icon">
+    
     <!-- Styles -->
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
